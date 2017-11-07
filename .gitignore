@@ -87,3 +87,5 @@ ENV/
 
 # Rope project settings
 .ropeproject
+save/model.ckpt-40.data-00000-of-00001
+save/model.ckpt-20.data-00000-of-00001

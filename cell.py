@@ -2,6 +2,7 @@ from ops import fc_layer, get_shape, print_vars
 import tensorflow as tf
 import numpy as np
 
+
 class VRNNCell(tf.nn.rnn_cell.RNNCell):
     """Variational RNN cell."""
 

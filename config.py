@@ -4,6 +4,7 @@ SAVE_DIR = './save/'
 
 #======================VRNN configuration=======================#
 
+
 class VRNNConfig(object):
     def __init__(self):
         self.rnn_size = 3 # num of hidden states in RNN

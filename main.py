@@ -14,10 +14,12 @@ logging.basicConfig(format = "[%(asctime)s] %(message)s", datefmt="%m%d %H:%M:%S
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
+
 class VRNN(VRNNConfig):
     def __init__(self, istest=False):
         VRNNConfig.__init__(self)
         logger.info("Building model starts...")
+
         def NLL(y, mu, sigma):
             '''Negative LogLiklihood
             - log(1/sqrt(2*pi)e-(y-mu)^2/2/sigma^2)
